@@ -1,0 +1,45 @@
+{
+    "name": "centosquare/centodash-ui-builder",
+    "description": "Enhance your Laravel development experience with specialized HTML and Form Builders tailored for the Laravel Framework.",
+    "keywords": [
+        "blade",
+        "components",
+        "blade-components",
+        "laravel",
+        "laravel-components",
+        "centosquare",
+        "centodash",
+        "centosquare-centodash",
+        "ui-builder"
+    ],
+    "authors": [
+        {
+            "name": "CentoSquare",
+            "email": "development@centosquare.com"
+        },
+        {
+            "name": "Muhammad Waqas",
+            "email": "mwaqasiu@gmail.com"
+        },
+        {
+            "name": "Muhammad Afaq",
+            "email": "afaq.centosquare@gmail.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CentoSquare\\CentoDashUIBuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CentoSquare\\CentoDashUIBuilder\\CentoDashUIBuilderServiceProvider"
+            ]
+        }
+    }
+}
